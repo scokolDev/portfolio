@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+.nav{
+    background-color: #202020;
+    height: 60px;
+    width: 500px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    color: #2BBA75;
+    display: grid;
+    align-items: center;
+}
+
+.personal-content{
+    /* background-color: blue; */
+    width: 900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.protrait{
+    background-color: red;
+    height: 600px;
+    /*aspect-ratio: 4/6;*/
+    grid-column: 1;
+    grid-row: 1 / 6;
+    justify-self: center;
+    align-self: center;
+}
+.info-text{
+    color: white;
+}
+.info-text::first-line{
+    color:#2BBA75;
+    font-weight: bold;
+}
+.link-box{
+    width: 50px;
+    height: 50px;
+}
